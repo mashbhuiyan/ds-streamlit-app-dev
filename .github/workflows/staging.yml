@@ -31,4 +31,4 @@ jobs:
           version_label: "${{ github.sha }}-${{ steps.format-time.outputs.replaced }}"
           region: us-east-2
           deployment_package: ds-streamlit-app.zip
-          bucket_name: ${{ secrets.AWS_BUCKET_NAME }}
+          bucket_name: ${{ secrets.S3_BUCKET_NAME }}
