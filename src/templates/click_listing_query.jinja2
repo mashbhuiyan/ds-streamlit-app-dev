@@ -1,0 +1,7 @@
+SELECT payout, campaign_id, clicked, id, created_at, click_ping_id, source_type_id
+FROM click_listings
+WHERE clicked = 1
+AND campaign_id = {{campaign_id}}
+AND created_at >= '{{start_date_time}}' 
+AND created_at < '{{end_date_time}}'
+

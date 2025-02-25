@@ -1,0 +1,15 @@
+SELECT 
+    rtb_bids.id, 
+    rtb_bids.click_ping_id, 
+    rtb_bids.output_code, 
+    rtb_bids.response_text, 
+    rtb_bids.created_at,
+    rtb_bids.latency, 
+    rtb_bids.revenue_exp
+FROM rtb_bids
+JOIN  click_listings ON  rtb_bids.click_ping_id = click_listings.click_ping_id
+WHERE rtb_bids.created_at >= '{{start_date_time}}' 
+AND rtb_bids.created_at < '{{end_date_time}}'
+AND click_listings.clicked = 1
+AND click_listings.campaign_id IN ({{ all_campaigns }})
+

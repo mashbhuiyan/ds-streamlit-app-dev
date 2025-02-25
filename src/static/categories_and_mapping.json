@@ -1,0 +1,266 @@
+{
+    "rev_type_color": {
+        "click": "r",
+        "lead": "b",
+        "call": "g"
+    },
+    "rev_types": [
+        "click",
+        "lead",
+        "call"
+    ],
+    "partner_campaign_mapping": {
+        "mt_auto": [
+            "1",
+            "3",
+            "12",
+            "13"
+        ],
+        "qw_auto": [
+            "66",
+            "58",
+            "59"
+        ],
+        "eq_auto": [
+            "414",
+            "417",
+            "418"
+        ],
+        "ms_auto": [
+            "163"
+        ],
+        "tr_auto": [
+            "65"
+        ],
+	"ma_auto": [
+	    "842",
+	    "878"
+	],
+        "mt_home": [
+            "5"
+        ],
+        "qw_home": [
+            "61",
+	    "1059"
+        ],
+        "eq_home": [
+            "968",
+            "762"
+        ],
+        "tr_home": [
+            "50"
+        ],
+        "qs_home": [
+            "93"
+        ]
+    },
+    "downstreamsource_campaign_mapping": {
+        "paid_search": [
+            "1",
+            "13",
+            "414"
+        ],
+        "email": [
+            "3",
+            "12",
+            "59",
+            "417",
+	    "878"
+        ],
+        "internal_seo_2": [
+	    "418",
+            "66"
+        ],
+        "premium_paid_search_2": [
+            "65",
+            "163",
+	    "842"
+        ],
+	"premium_paid_search_2b": [
+	    "58"
+	],
+        "tier_2": [
+            "5",
+            "50",
+            "762"
+        ],
+        "tier_3": [
+            "61"
+        ],
+        "tier_1": [
+            "93",
+            "968"
+        ],
+        "home_search_b": [
+	    "1059"
+        ]
+    },
+    "insurance_type_campaign_mapping": {
+        "home": [
+            "5",
+            "50",
+            "762",
+            "61",
+            "93",
+            "968",
+	    "1059"
+        ],
+        "auto": [
+            "1",
+            "13",
+            "58",
+            "414",
+            "3",
+            "12",
+            "59",
+            "417",
+            "418",
+            "65",
+            "163",
+            "66",
+            "878",
+            "842"
+        ]
+    },
+    "insurance_type_mapping": {
+        "home": [
+            "tier_1",
+            "tier_2",
+            "tier_3",
+            "home_search_b",
+            "5",
+            "50",
+            "762",
+            "61",
+            "93",
+            "968",
+	    "1059",
+            "mt_home",
+            "qw_home",
+            "tr_home",
+            "qs_home"
+        ],
+        "auto": [
+            "paid_search",
+            "email",
+            "premium_paid_search_2",
+            "premium_paid_search_2b",
+            "internal_seo_2",
+            "1",
+            "13",
+            "58",
+            "414",
+            "3",
+            "12",
+            "59",
+            "417",
+            "418",
+            "65",
+            "163",
+            "66",
+            "878",
+            "842",
+	    "mt_auto",
+            "qw_auto",
+            "eq_auto",
+            "ms_auto",
+            "tr_auto",
+            "ma_auto"
+        ]
+    },
+    "campaign_ids": [
+	"1",
+	"5",
+	"12",
+	"13",
+	"58",
+	"59",
+	"61",
+	"66",
+	"414",
+	"417",
+	"418",
+	"842",
+	"878",
+	"1059"],
+    "partner_ids": [
+        "mt_auto",
+        "qw_auto",
+        "eq_auto",
+        "ms_auto",
+        "tr_auto",
+	"ma_auto",
+        "mt_home",
+        "qw_home",
+        "eq_home",
+        "tr_home",
+        "qs_home"
+    ],
+    "downstream_source_types": [
+        "paid_search",
+        "email",
+        "premium_paid_search_2",
+        "premium_paid_search_2b",
+        "internal_seo_2",
+        "tier_1",
+        "tier_2",
+        "tier_3",
+	"home_search_b"
+    ],
+    "insurance_types": [
+        "home",
+        "auto"
+    ],
+    "list_of_states": [
+        "AL",
+        "AK",
+        "AZ",
+        "AR",
+        "CA",
+        "CO",
+        "CT",
+        "DC",
+        "DE",
+        "FL",
+        "GA",
+        "HI",
+        "ID",
+        "IL",
+        "IN",
+        "IA",
+        "KS",
+        "KY",
+        "LA",
+        "ME",
+        "MD",
+        "MA",
+        "MI",
+        "MN",
+        "MS",
+        "MO",
+        "MT",
+        "NE",
+        "NV",
+        "NH",
+        "NJ",
+        "NM",
+        "NY",
+        "NC",
+        "ND",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "TX",
+        "UT",
+        "VT",
+        "VA",
+        "WA",
+        "WV",
+        "WI",
+        "WY"]
+}

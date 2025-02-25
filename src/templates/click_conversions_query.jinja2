@@ -1,0 +1,5 @@
+SELECT id, rev_type,channel, revenue, click_listing_id, listing_created_at, created_at from click_conversions
+WHERE created_at >= '{{start_date_time}}'
+AND created_at <'{{end_date_time}}'
+AND campaign_id = {{campaign_id}}
+
