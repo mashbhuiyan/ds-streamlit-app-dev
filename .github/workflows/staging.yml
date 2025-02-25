@@ -26,9 +26,9 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          region: ${{ secrets.AWS_REGION }}  
           application_name: ds-streamlit-app-dev
           environment_name: ds-streamlit-app-dev-env
           version_label: "ds-streamlit-app-version-${{ github.run_number }}"
-          region: us-east-2
           deployment_package: dev-ds-streamlit-app.zip
           # bucket_name: ${{ secrets.S3_BUCKET_NAME }}
