@@ -9,7 +9,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
       - name: Generate Deployment Package
-        run: zip -r ds-streamlit-app.zip * -x "**/__pycache__/**" -x "**.git/**" -x "**.github/**"
+        run: zip -r dev-ds-streamlit-app.zip * -x "**/__pycache__/**" -x "**.git/**" -x "**.github/**"
       - name: Get Timestamp
         uses: gerred/actions/current-time@master
         id: current-time
@@ -27,8 +27,8 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: ds-streamlit-app-dev
-          environment_name: Ds-streamlit-app-dev-env
+          environment_name: ds-streamlit-app-dev-env
           version_label: "ds-streamlit-app-version-${{ github.run_number }}"
           region: us-east-2
-          deployment_package: ds-streamlit-app.zip
+          deployment_package: dev-ds-streamlit-app.zip
           bucket_name: ${{ secrets.S3_BUCKET_NAME }}
